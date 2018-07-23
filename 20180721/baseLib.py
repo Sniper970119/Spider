@@ -7,6 +7,9 @@ from urllib.request import HTTPPasswordMgrWithPriorAuth, HTTPBasicAuthHandler, P
 from urllib.error import URLError, HTTPError
 import http.cookiejar, urllib.request
 from urllib.parse import urlparse, urlunparse, urlsplit, urlunsplit, urlencode, parse_qs, quote, unquote
+from urllib.robotparser import RobotFileParser
+import requests
+import re
 
 # urlopen test
 # responce = urllib.request.urlopen('https://www.python.org')
@@ -174,5 +177,101 @@ from urllib.parse import urlparse, urlunparse, urlsplit, urlunsplit, urlencode, 
 # unquote test
 # url = 'https://www.baidu.com/s?wd=%E4%B8%80%E4%B8%AA%E4%B8%8D%E4%BC%9A%E7%8E%A9%E7%8B%99%E7%9A%84%E5%A4%A9%E6%89%8D%E7%8B%99%E5%87%BB%E6%89%8B'
 # print(unquote(url))
+
+
+# robotparser test
+# rp = RobotFileParser()
+# rp.set_url('http://www.jianshu.com/robots.txt')
+# rp.read()
+# print(rp.can_fetch('*', 'http://www.jianshu.com/p/b67554025d7d'))
+# print(rp.can_fetch('*', 'http://www.jianshu.com/search?q=python&page=1&type=collections'))
+
+
+# requests test
+# r = requests.get('http://www.baidu.com')
+# print(type(r))
+# print(r.status_code)
+# print(type(r.text))
+# print(r.text)
+# print(r.cookies)
+
+
+# requests test -> get
+# data = {
+#     'name': 'Spider',
+#     'age': '21'
+# }
+# r = requests.get('http://httpbin.org/get',data)
+# print(r.text)
+# print(r.json()) # 可以用json形式解析返回
+
+
+# requests test -> zhihu
+# headers = {
+#     'User-agent': 'Mozilla/5.0(Macintosh;Intel Mac OS X 10_11_4)AppleWebKit/537.36(KHTML, like Gecko)Chrome/52.0.2743.116 Safari/537.36'
+# }
+# r = requests.get('https://www.zhihu.com/explore',headers=headers)
+# pattern = re.compile('explore-feed.*?question_link.*?>(.*?)</a>',re.S)
+# titles = re.findall(pattern, r.text)
+# print(titles)
+
+
+# requests test -> binary file
+# r= requests.get('https://github.com/favicon.ico')
+# print(r.text)
+# print(r.content)
+# with open('favicon.ico', 'wb')as f:
+#     f.write(r.content)
+
+
+# requests test -> post
+# data = {
+#     'name': 'Spider',
+#     'age': '21'
+# }
+# r= requests.post('http://httpbin.org/post', data=data)
+# print(r.text)
+
+
+# requests test -> responce
+# headers = {
+#     'User-agent': 'Mozilla/5.0(Macintosh;Intel Mac OS X 10_11_4)AppleWebKit/537.36(KHTML, like Gecko)Chrome/52.0.2743.116 Safari/537.36'
+# }
+# r = requests.get('http://www.jianshu.com',headers=headers)
+# print(type(r.status_code), r.status_code)
+# print(type(r.headers), r.headers)
+# print(type(r.cookies), r.cookies)
+# print(type(r.url), r.url)
+# print(type(r.history), r.history)
+
+
+# requests test -> post
+# files = {
+#     'file':open('favicon.ico', 'rb')
+# }
+# r = requests.post('http://httpbin.org/post',files=files)
+# print(r.text)
+
+
+# requests test -> cookies
+# r= requests.get('http://www.baidu.com')
+# print(r.cookies)
+# for key, value in r.cookies.items():
+#     print(key+'='+value)
+
+
+# requests test -> cookies -> zhihu
+# headers = {
+#     'Cookies': '_xsrf=Buel2ZkWUtC7SgTSB8EJPCF4Br5Rcimr;'
+#                ' _zap=1f70cf3c-9b1a-4513-a8f3-d6abb4270880;'
+#                ' d_c0="AMCkg9ZJ7w2PTnLDQAncDVfCUc59_P4qggs=|1532176674";'
+#                ' q_c1=6e44fd4dd5064217a670c1c5aaf31711|1532176674000|1532176674000;'
+#                ' capsion_ticket="2|1:0|10:1532176678|14:capsion_ticket|44:NWQ1YWNkNzU5ZjhiNGJmYmI0NTkyNmJiYzg4OWM5YzM=|67f43de453cf2ec1315e2bc98b734af6bef647447e40c73341943d6a8a2b4724";'
+#                ' z_c0="2|1:0|10:1532176688|4:z_c0|92:Mi4xemN3Z0FnQUFBQUFBd0tTRDFrbnZEU1lBQUFCZ0FsVk5NSGRBWEFEVnFndHJQYUZ1OWNXdHJidTJ4eldhX0NkRUFn|8155841af129425202e2ef982f977517d7940a6257866e3df4221696ff4710ef"',
+#     'Host': 'www.zhihu.com',
+#     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+# }
+# r= requests.get('https://www.zhihu.com/people/zhao-yu-12-34/activities', headers=headers)
+# print(r.text)
 
 
