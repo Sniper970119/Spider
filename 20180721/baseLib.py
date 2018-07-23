@@ -10,6 +10,7 @@ from urllib.parse import urlparse, urlunparse, urlsplit, urlunsplit, urlencode, 
 from urllib.robotparser import RobotFileParser
 import requests
 import re
+from requests import Request, Session
 
 # urlopen test
 # responce = urllib.request.urlopen('https://www.python.org')
@@ -276,10 +277,50 @@ import re
 
 
 # requests test -> session
-requests.get('http://httpbin.org/cookies/set/number/123456789')
-r= requests.get('http://httpbin.org/cookies')
-print(r.text)
-s = requests.session()
-s.get('http://httpbin.org/cookies/set/number/123456789')
-r = s.get('http://httpbin.org/cookies')
+# requests.get('http://httpbin.org/cookies/set/number/123456789')
+# r= requests.get('http://httpbin.org/cookies')
+# print(r.text)
+# s = requests.session()
+# s.get('http://httpbin.org/cookies/set/number/123456789')
+# r = s.get('http://httpbin.org/cookies')
+# print(r.text)
+
+
+# requests test -> verify
+# responce = requests.get('https://www.12306.cn', verify=False)
+# print(responce.status_code)
+
+
+# request test -> proxies
+# proxies = {
+#     'http': 'http://xxx.xxx.xxx.xxx:xxxx',
+#     'https': 'https://xxx.xxx.xxx.xxx:xxxx'
+# }
+# r = requests.get('https://www.taobao.com', proxies=proxies)
+# print(r.text)
+
+
+# requests test -> timeout
+# r = requests.get('https://www.taobao.com', timeout=1)
+# print(r.text)
+
+
+# requests test -> auth
+# r = requests.get("http://192.168.0.1/index.asp", auth=('admin', ''))
+# print(r.status_code)
+# print(r.text)
+
+
+# requests test -> prepare_request
+url = 'http://httpbin.org/post'
+data = {
+    'name': 'Sniper'
+}
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+}
+s = Session()
+req = Request('POST', url, data=data, headers=headers)
+prepped = s.prepare_request(req)
+r = s.send(prepped)
 print(r.text)
