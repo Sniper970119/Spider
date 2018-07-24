@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add3e427-242e-4545-b628-6ac815b09f71" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20180721/MaoyanSpider.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,18 +14,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/spider$MaoyanSpider.coverage" NAME="MaoyanSpider Coverage Results" MODIFIED="1532438703730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20180721" />
     <SUITE FILE_PATH="coverage/spider$urllib.coverage" NAME="baseLib Coverage Results" MODIFIED="1532437726418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20180721" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="baseLib.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="baseLib.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20180721/baseLib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="355" column="0" lean-forward="true" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
+            <state relative-caret-position="400">
+              <caret line="224" column="22" lean-forward="true" selection-start-line="224" selection-start-column="22" selection-end-line="224" selection-end-column="22" />
               <folding>
                 <element signature="e#23#44#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaoyanSpider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/20180721/MaoyanSpider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maoyan.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/20180721/maoyan.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="163" column="33" lean-forward="true" selection-start-line="163" selection-start-column="33" selection-end-line="163" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,6 +107,8 @@
         <option value="$PROJECT_DIR$/20180721/urllib01.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/20180721/baseLib.py" />
+        <option value="$PROJECT_DIR$/20180721/MaoyanSpider.py" />
+        <option value="$PROJECT_DIR$/20180721/maoyan.txt" />
       </list>
     </option>
   </component>
@@ -167,7 +192,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.baseLib">
+  <component name="RunManager" selected="Python.MaoyanSpider">
+    <configuration name="MaoyanSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20180721" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20180721/MaoyanSpider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="baseLib" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,9 +229,14 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.baseLib" />
+      <item index="1" class="java.lang.String" itemvalue="Python.MaoyanSpider" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.baseLib" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.MaoyanSpider" />
+        <item index="1" class="java.lang.String" itemvalue="Python.baseLib" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532437909266</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update">
+      <created>1532437944679</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1532437944679</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -328,11 +383,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/20180721/baseLib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="355" column="0" lean-forward="true" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
+        <state relative-caret-position="400">
+          <caret line="224" column="22" lean-forward="true" selection-start-line="224" selection-start-column="22" selection-end-line="224" selection-end-column="22" />
           <folding>
             <element signature="e#23#44#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20180721/MaoyanSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20180721/maoyan.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="163" column="33" lean-forward="true" selection-start-line="163" selection-start-column="33" selection-end-line="163" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
