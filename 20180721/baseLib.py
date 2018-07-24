@@ -324,3 +324,32 @@ from requests import Request, Session
 # prepped = s.prepare_request(req)
 # r = s.send(prepped)
 # print(r.text)
+
+
+# re test -> match
+# str = 'Hello 123456 123456 World Test'
+# result = re.match('^Hello.*Test$', str)
+# print(result)
+# print(result.group())
+# print(result.span())
+
+
+# re test -> greedy & non-greedy
+# str = 'Hello 123456 123456 World Test'
+# result = re.match('^He.*(\d+).*st$', str)
+# print(result)
+# print(result.group(0))
+# print(result.group(1))
+# print(result.span())
+# result = re.match('^He.*?(\d+).*?st$', str)
+# print(result)
+# print(result.group(0))
+# print(result.group(1))
+# print(result.span())
+
+
+# re test -> sub
+# str = 'weqr65s4agf6354agfa'
+# result = re.sub('\d+', '', str)
+# print(result)
+
