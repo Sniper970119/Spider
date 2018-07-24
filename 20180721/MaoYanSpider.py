@@ -2,6 +2,7 @@
 import json
 import requests
 import re
+from requests.exceptions import RequestException
 
 
 # get page code
@@ -10,10 +11,13 @@ def get_one_page(url):
         'User-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.339'
                       '6.99 Safari/537.36'
     }
-    responce = requests.get(url=url, headers=headers, timeout=5)
-    if responce.status_code == 200:
-        return responce.text
-    else:
+    try:
+        responce = requests.get(url=url, headers=headers, timeout=5)
+        if responce.status_code == 200:
+            return responce.text
+        else:
+            return None
+    except RequestException:
         return None
 
 
@@ -50,7 +54,7 @@ def get_picture(content):
     url = re.sub('(@.*)', "", url)
     title = content['title']
     responce = requests.get(url=url, headers=headers, timeout=5)
-    with open("./image/"+title+".jpg", 'wb') as f:
+    with open("./image/" + title + ".jpg", 'wb') as f:
         f.write(responce.content)
 
 
@@ -68,4 +72,3 @@ if __name__ == '__main__':
             # write_to_file(item)
             get_picture(item)
         offset = offset + 10
-
