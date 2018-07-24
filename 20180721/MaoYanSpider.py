@@ -40,14 +40,32 @@ def write_to_file(content):
         f.write(json.dumps(content, ensure_ascii=False) + '\n')
 
 
+# get picture
+def get_picture(content):
+    headers = {
+        'User-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.339'
+                      '6.99 Safari/537.36'
+    }
+    url = content['image']
+    url = re.sub('(@.*)', "", url)
+    title = content['title']
+    responce = requests.get(url=url, headers=headers, timeout=5)
+    with open("./image/"+title+".jpg", 'wb') as f:
+        f.write(responce.content)
+
+
 # main
 if __name__ == '__main__':
-    url = 'http://www.maoyan.com/board/4'
-    html = get_one_page(url)
-    # f = open('maoyan.txt', 'w')  # print page code in file
-    # f.write(html)
-    # print(html)                  # print page code in console
-    for item in parse_one_page(html):  # print the handled message
-        print(item)
-        write_to_file(item)
+    offset = 0
+    for i in range(10):
+        url = 'http://www.maoyan.com/board/4?offset=' + str(offset)
+        html = get_one_page(url)
+        # f = open('maoyan.txt', 'w')  # print page code in file
+        # f.write(html)
+        # print(html)                  # print page code in console
+        for item in parse_one_page(html):  # print the handled message
+            # print(item)
+            # write_to_file(item)
+            get_picture(item)
+        offset = offset + 10
 
