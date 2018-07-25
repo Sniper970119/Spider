@@ -317,23 +317,106 @@ from pyquery import PyQuery as pq
 #     print(i.html())              # can output html
 
 
-# pyquery test -> find node
-html = '''
-<div class="panel">
-    <div class="panel-heading">
-        <h4>Hello</h4>
-    </div>
-    <div class="panel-body" id="list-0">
-        <ul class="list" id="list-1" name="elements">
-            <li class="element1"><a href="www.123.com">Foo</li>
-            <li class="element2"><a href="www.123.com">Bar</li>
-            <li class="element3"><a href="www.123.com">Jay</li>
-        </ul>
-        <ul class="list list-small" id="list-2">
-            <li class="element4"><a href="www.123.com">Foo</li>
-            <li class="element5"><a href="www.123.com">Bar</li>
-        </ul>
-    </div>
-</div>
-'''
-doc = pq(html)
+# # pyquery test -> class handle
+# html = '''
+# <div class="panel">
+#     <div class="panel-heading">
+#         <h4>Hello</h4>
+#     </div>
+#     <div class="panel-body" id="list-0">
+#         <ul class="list" id="list-1" name="elements">
+#             <li class="element1"><a href="www.123.com">Foo</li>
+#             <li class="element2"><a href="www.123.com">Bar</li>
+#             <li class="element3"><a href="www.123.com">Jay</li>
+#         </ul>
+#         <ul class="list list-small" id="list-2">
+#             <li class="element4"><a href="www.123.com">Foo</li>
+#             <li class="element5"><a href="www.123.com">Bar</li>
+#         </ul>
+#     </div>
+# </div>
+# '''
+# doc = pq(html)
+# ul = doc('ul')
+# print(ul)
+# print()
+# ul.add_class('action')
+# print(ul)
+# print()
+# ul.remove_class('action')
+# print(ul)
+# print()
+
+
+# pyquery test -> attribute handle
+# html = '''
+# <div class="panel">
+#     <div class="panel-heading">
+#         <h4>Hello</h4>
+#     </div>
+#     <div class="panel-body" id="list-0">
+#         <ul class="list" id="list-1" name="elements">
+#             <li class="element1"><a href="www.123.com">Foo</li>
+#             <li class="element2"><a href="www.123.com">Bar</li>
+#             <li class="element3"><a href="www.123.com">Jay</li>
+#         </ul>
+#         <ul class="list list-small" id="list-2">
+#             <li class="element4"><a href="www.123.com">Foo</li>
+#             <li class="element5"><a href="www.123.com">Bar</li>
+#         </ul>
+#     </div>
+# </div>
+# '''
+# doc = pq(html)
+# ul = doc('ul')
+# print(ul)
+# print()
+# ul.attr('name', 'sniper')
+# print(ul)
+# print()
+# ul.text('change item')
+# print(ul)
+# print()
+# ul.html('<a href="www.123.com">')
+# print(ul)
+# print()
+
+
+# pyquery test -> attribute handle
+# html = '''
+# <div class="panel">
+#     <div class="panel-heading">
+#         <h4>Hello</h4>
+#     </div>
+#     <div class="panel-body" id="list-0">
+#         <ul class="list" id="list-1" name="elements">
+#             <li class="element1"><a href="www.123.com">Foo</li>
+#             <li class="element2"><a href="www.123.com">Bar</li>
+#             <li class="element3"><a href="www.123.com">Jay</li>
+#         </ul>
+#         <ul class="list list-small" id="list-2">
+#             <li class="element4"><a href="www.123.com">Foo</li>
+#             <li class="element5"><a href="www.123.com">Bar</li>
+#         </ul>
+#     </div>
+# </div>
+# '''
+# doc = pq(html)
+# li = doc('li:first-child')
+# print(li)
+# print()
+# li = doc('li:last-child')
+# print(li)
+# print()
+# li = doc('li:nth-child(2)')
+# print(li)
+# print()
+# li = doc('li:gt(2)')
+# print(li)
+# print()
+# li = doc('li:nth-child(2n)')
+# print(li)
+# print()
+# li = doc('li:contains(Bar)')
+# print(li)
+# print()
