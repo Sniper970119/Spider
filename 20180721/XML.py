@@ -2,6 +2,7 @@
 from lxml import etree
 from bs4 import BeautifulSoup
 import re
+from pyquery import PyQuery as pq
 
 # xml test -> tostring
 # html = etree.parse('test.xml', etree.HTMLParser())
@@ -197,21 +198,142 @@ import re
 
 
 # pyquery test
+# html = '''
+# <div class="panel">
+#     <div class="panel-heading">
+#         <h4>Hello</h4>
+#     </div>
+#     <div class="panel-body">
+#         <ul class="list" id="list-1" name="elements">
+#             <li class="element">Foo</li>
+#             <li class="element">Bar</li>
+#             <li class="element">Jay</li>
+#         </ul>
+#         <ul class="list list-small" id="list-2">
+#             <li class="element">Foo</li>
+#             <li class="element">Bar</li>
+#         </ul>
+#     </div>
+# </div>
+# '''
+# doc = pq(html)
+# print(doc('li'))
+# print()
+# doc = pq(url='http://www.sniper97.cn')  # use url
+# print(doc('title'))
+# print()
+# doc = pq(filename='test.xml')           # use file
+# print(doc('li'))
+# print()
+
+
+# pyquery test -> css
+# html = '''
+# <div class="panel">
+#     <div class="panel-heading">
+#         <h4>Hello</h4>
+#     </div>
+#     <div class="panel-body" id="list-0">
+#         <ul class="list" id="list-1" name="elements">
+#             <li class="element">Foo</li>
+#             <li class="element">Bar</li>
+#             <li class="element">Jay</li>
+#         </ul>
+#         <ul class="list list-small" id="list-2">
+#             <li class="element">Foo</li>
+#             <li class="element">Bar</li>
+#         </ul>
+#     </div>
+# </div>
+# '''
+# doc = pq(html)
+# print(doc('#list-0 .list li'))
+
+
+# pyquery test -> find node
+# html = '''
+# <div class="panel">
+#     <div class="panel-heading">
+#         <h4>Hello</h4>
+#     </div>
+#     <div class="panel-body" id="list-0">
+#         <ul class="list" id="list-1" name="elements">
+#             <li class="element">Foo</li>
+#             <li class="element">Bar</li>
+#             <li class="element">Jay</li>
+#         </ul>
+#         <ul class="list list-small" id="list-2">
+#             <li class="element">Foo</li>
+#             <li class="element">Bar</li>
+#         </ul>
+#     </div>
+# </div>
+# '''
+# doc = pq(html)
+# item = doc('ul')
+# print(item)
+# print()
+# lis = item.find('li')   # son node
+# print(lis)
+# print()
+# par = item.parents()     # parents node
+# print(par)
+# print()
+# par = item.parents('.panel-body')     # parent node , only one point
+# print(par)
+# print()
+# node = doc('li')
+# print(node.siblings('.element'))       # find brother node
+
+
+# pyquery test -> find node
+# html = '''
+# <div class="panel">
+#     <div class="panel-heading">
+#         <h4>Hello</h4>
+#     </div>
+#     <div class="panel-body" id="list-0">
+#         <ul class="list" id="list-1" name="elements">
+#             <li class="element1"><a href="www.123.com">Foo</li>
+#             <li class="element2"><a href="www.123.com">Bar</li>
+#             <li class="element3"><a href="www.123.com">Jay</li>
+#         </ul>
+#         <ul class="list list-small" id="list-2">
+#             <li class="element4"><a href="www.123.com">Foo</li>
+#             <li class="element5"><a href="www.123.com">Bar</li>
+#         </ul>
+#     </div>
+# </div>
+# '''
+# doc = pq(html)
+# item = doc('ul')
+# print(item.attr('class'))
+# print(item.attr.id)
+# item = doc('li')
+# print(item.attr('class'))       # can not output attr
+# for i in item.items():
+#     print(i.attr('class'))      # can output attr
+#     print(i.text())              # can output text
+#     print(i.html())              # can output html
+
+
+# pyquery test -> find node
 html = '''
 <div class="panel">
     <div class="panel-heading">
         <h4>Hello</h4>
     </div>
-    <div class="panel-body">
+    <div class="panel-body" id="list-0">
         <ul class="list" id="list-1" name="elements">
-            <li class="element">Foo</li>
-            <li class="element">Bar</li>
-            <li class="element">Jay</li>
+            <li class="element1"><a href="www.123.com">Foo</li>
+            <li class="element2"><a href="www.123.com">Bar</li>
+            <li class="element3"><a href="www.123.com">Jay</li>
         </ul>
         <ul class="list list-small" id="list-2">
-            <li class="element">Foo</li>
-            <li class="element">Bar</li>
+            <li class="element4"><a href="www.123.com">Foo</li>
+            <li class="element5"><a href="www.123.com">Bar</li>
         </ul>
     </div>
 </div>
 '''
+doc = pq(html)
