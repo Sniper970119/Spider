@@ -7,6 +7,7 @@
 ## 环境要求
 
 1.python 3.
+2.[博客地址](http://www.sniper97.cn/index.php/category/note/worm/envirment)
 
 #
 `./baseLib.py`   urllib/requests 的使用     [博客地址](http://www.sniper97.cn/index.php/category/note/worm/baselib)
@@ -17,7 +18,7 @@
 
 `./Data.py`               数据库的使用                [博客地址](http://www.sniper97.cn/index.php/category/note/worm/data)
 
-`./Ajax.py`             Ajax的使用         [博客地址](http://www.sniper97.cn/index.php/category/note/worm/ajax)
+`./WeiBoSpider.py`             对微博主页的微博进行爬取         [博客地址](http://www.sniper97.cn/index.php/category/note/worm/weibo)
 
 #
 
