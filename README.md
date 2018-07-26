@@ -13,7 +13,11 @@
 
 `./MaoYanSpider.py`       对猫眼电影进行爬取，收集评分最高的100部电影  [博客地址](http://www.sniper97.cn/index.php/category/note/worm/maoyan)
 
-`./XML.py`                解析库的使用                            [博客地址](http://www.sniper97.cn/index.php/category/note/worm/XML)
+`./Xml.py`                解析库的使用                            [博客地址](http://www.sniper97.cn/index.php/category/note/worm/XML)
+
+`./Data.py`               数据库的使用                [博客地址](http://www.sniper97.cn/index.php/category/note/worm/data)
+
+`./Ajax.py`             Ajax的使用         [博客地址](http://www.sniper97.cn/index.php/category/note/worm/ajax)
 
 #
 
