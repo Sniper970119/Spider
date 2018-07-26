@@ -20,6 +20,8 @@
 
 `./WeiBoSpider.py`             对微博主页的微博进行爬取         [博客地址](http://www.sniper97.cn/index.php/category/note/worm/weibo)
 
+`./TouTiaoSpider.py`        对微博科技板块部分进行爬取       [博客地址](http://www.sniper97.cn/index.php/category/note/worm/toutiao)
+
 #
 
 

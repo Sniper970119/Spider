@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add3e427-242e-4545-b628-6ac815b09f71" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TouTiaoSpider.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file/json/data.json" afterPath="$PROJECT_DIR$/file/json/data.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,21 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="385">
+              <caret line="22" column="114" lean-forward="false" selection-start-line="22" selection-start-column="114" selection-end-line="22" selection-end-column="114" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TouTiaoSpider.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TouTiaoSpider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TouTiaoSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+            <state relative-caret-position="268">
+              <caret line="84" column="34" lean-forward="true" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
               <folding>
                 <element signature="e#23#57#0" expanded="true" />
               </folding>
@@ -114,10 +113,10 @@
         <option value="$PROJECT_DIR$/Json.py" />
         <option value="$PROJECT_DIR$/data.py" />
         <option value="$PROJECT_DIR$/Ajax.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/WeiBoSpider.py" />
         <option value="$PROJECT_DIR$/file/json/data.json" />
         <option value="$PROJECT_DIR$/TouTiaoSpider.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -179,18 +178,6 @@
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
               <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="csv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -582,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532590439231</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="update">
+      <created>1532598214219</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1532598214219</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -778,14 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/file/json/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -824,11 +810,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TouTiaoSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        <state relative-caret-position="268">
+          <caret line="84" column="34" lean-forward="true" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
           <folding>
             <element signature="e#23#57#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="22" column="114" lean-forward="false" selection-start-line="22" selection-start-column="114" selection-end-line="22" selection-end-column="114" />
+          <folding />
         </state>
       </provider>
     </entry>
