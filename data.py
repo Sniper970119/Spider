@@ -2,6 +2,7 @@
 import json
 import csv
 import pymongo
+from redis import StrictRedis
 
 # json test -> read
 # str = '''
@@ -64,3 +65,7 @@ import pymongo
 # print(result)
 
 
+# Redis test
+# redis = StrictRedis(host='localhost', port=6379, db=0, password='')
+# redis.set('name', 'Bob')
+# print(redis.get('name'))
