@@ -6,7 +6,7 @@
 
 ## 环境要求
 
-1.python 3.
+1.python 3
 2.[博客地址](http://www.sniper97.cn/index.php/category/note/worm/envirment)
 
 #
