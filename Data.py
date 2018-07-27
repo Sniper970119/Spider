@@ -58,11 +58,15 @@ from redis import StrictRedis
 
 
 # mongodb test -> read
-# client = pymongo.MongoClient(host='localhost', port=27017)  # connect to DB
+client = pymongo.MongoClient(host='localhost', port=27017)  # connect to DB
 # db = client.quiz                # choose DB
 # collection = db.quizzes         # choose collection
 # result = collection.find_one({'quiz': '我国历史上第一部编年体史书是？'})   # find data
 # print(result)
+db = client.Test
+collection = db.TaoBao
+result = collection.find_one({'good id': '563350942830'})
+print(result)
 
 
 # Redis test
