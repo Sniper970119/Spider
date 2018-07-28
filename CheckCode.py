@@ -3,9 +3,9 @@
 from aip import AipOcr
 from PIL import Image
 
-APP_ID = '10564989'
-API_KEY = 'xnOIoKcX44zUxYuca6qComZQ'
-SECRET_KEY = 'UOIp0fMt3YQSiR6jjsf875td3eZEiw30'
+APP_ID = '105649896'
+API_KEY = 'xnOIoKcX44zUxYuca6qComZQ6'
+SECRET_KEY = 'UOIp0fMt3YQSiR6jjsf875td3eZEiw306'
 
 client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 
