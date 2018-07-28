@@ -23,6 +23,9 @@
 
 `./TouTiaoSpider.py`        对今日头条科技板块部分进行爬取       [博客地址](http://www.sniper97.cn/index.php/category/note/worm/toutiao)
 
+`./TaoBaoSpider.py`       对淘宝的商品进行爬取  [博客地址](http://www.sniper97.cn/index.php/category/note/worm/taobao)
+
+`./CheckCode.py`    验证码的识别与处理       [博客地址](http://www.sniper97.cn/index.php/category/note/worm/checkcode)
 #
 
 
