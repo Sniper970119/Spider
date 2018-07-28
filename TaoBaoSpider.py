@@ -7,11 +7,10 @@ from selenium.common.exceptions import TimeoutException
 from pyquery import PyQuery as pq
 import pymongo
 import re
-import time
 
-# chrome_options = webdriver.ChromeOptions()
-# chrome_options.add_argument('--headless')  chrome_options=chrome_options
-browser = webdriver.Chrome()
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument('--headless')
+browser = webdriver.Chrome(chrome_options=chrome_options)
 wait = WebDriverWait(browser, 10)
 KEY_WORD = 'iPhone'
 base_url = 'https://s.taobao.com/search?q='
