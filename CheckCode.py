@@ -90,7 +90,7 @@ class CracjWeiboSlide():
             time.sleep(2)
             print(count)
             # self.get_image(str(count) + '.png')
-            count += 1
+            # count += 1
 
 
 if __name__ == '__main__':
