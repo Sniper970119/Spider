@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add3e427-242e-4545-b628-6ac815b09f71" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoGouSpider/MongoDB.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoGouSpider/SouGouSpider.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoGouSpider/Spider.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoGouSpider/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoGouSpider/db.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoGouSpider/request.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/spider.iml" afterPath="$PROJECT_DIR$/.idea/spider.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CheckCode.py" afterPath="$PROJECT_DIR$/CheckCode.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proxypool/api.py" afterPath="$PROJECT_DIR$/proxypool/api.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -112,17 +103,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SouGouSpider.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SouGouSpider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SoGouSpider/SouGouSpider.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
@@ -130,6 +111,16 @@
               <folding>
                 <element signature="e#23#38#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -209,7 +200,6 @@
         <option value="$PROJECT_DIR$/AgentPool.py" />
         <option value="$PROJECT_DIR$/getter.py" />
         <option value="$PROJECT_DIR$/proxypool/crawler.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/SouGouSpider.py" />
         <option value="$PROJECT_DIR$/SouGouSpider/request.py" />
         <option value="$PROJECT_DIR$/SouGouSpider/db.py" />
@@ -223,6 +213,7 @@
         <option value="$PROJECT_DIR$/SoGouSpider/MongoDB.py" />
         <option value="$PROJECT_DIR$/SoGouSpider/Spider.py" />
         <option value="$PROJECT_DIR$/SoGouSpider/SouGouSpider.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -447,13 +438,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532178828631</updated>
-    </task>
-    <task id="LOCAL-00004" summary="update">
-      <created>1532360031108</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1532360031108</updated>
     </task>
     <task id="LOCAL-00005" summary="update">
       <created>1532360059851</created>
@@ -791,7 +775,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532848530473</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="update">
+      <created>1532919908714</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1532919908715</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -967,13 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1210,6 +1194,14 @@
           <folding>
             <element signature="e#23#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
