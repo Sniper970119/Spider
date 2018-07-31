@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add3e427-242e-4545-b628-6ac815b09f71" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoGouSpiderFree/MongoDB.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoGouSpiderFree/SouGouSpider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoGouSpiderFree/Spider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoGouSpiderFree/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoGouSpiderFree/db.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoGouSpiderFree/request.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/spider.iml" afterPath="$PROJECT_DIR$/.idea/spider.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoGouSpider/config.py" afterPath="$PROJECT_DIR$/SoGouSpider/config.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,15 +24,15 @@
     <SUITE FILE_PATH="coverage/spider$XML.coverage" NAME="XML Coverage Results" MODIFIED="1532532334262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20180721" />
     <SUITE FILE_PATH="coverage/spider$MaoyanSpider.coverage" NAME="MaoyanSpider Coverage Results" MODIFIED="1532441580925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20180721" />
     <SUITE FILE_PATH="coverage/spider$WeiBoSpider.coverage" NAME="WeiBoSpider Coverage Results" MODIFIED="1532592429645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/spider$SouGouSpider.coverage" NAME="SouGouSpider Coverage Results" MODIFIED="1532862422203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SouGouSpider" />
-    <SUITE FILE_PATH="coverage/spider$SouGouSpider__1_.coverage" NAME="SouGouSpider (1) Coverage Results" MODIFIED="1532919657131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoGouSpider" />
+    <SUITE FILE_PATH="coverage/spider$SouGouSpider.coverage" NAME="SouGouSpider Coverage Results" MODIFIED="1532999780959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoGouSpiderFree" />
+    <SUITE FILE_PATH="coverage/spider$SouGouSpider__1_.coverage" NAME="SouGouSpider (1) Coverage Results" MODIFIED="1532929157615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoGouSpider" />
     <SUITE FILE_PATH="coverage/spider$importer.coverage" NAME="importer Coverage Results" MODIFIED="1532912319918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxypool" />
     <SUITE FILE_PATH="coverage/spider$Agent.coverage" NAME="Agent Coverage Results" MODIFIED="1532840522930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider$baseLib.coverage" NAME="baseLib Coverage Results" MODIFIED="1532865630411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider$Selenium.coverage" NAME="Selenium Coverage Results" MODIFIED="1532613952705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider$Json.coverage" NAME="Json Coverage Results" MODIFIED="1532576996461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider$TouTiaoSpider.coverage" NAME="TouTiaoSpider Coverage Results" MODIFIED="1532595791182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/spider$api.coverage" NAME="api Coverage Results" MODIFIED="1532912387433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxypool" />
+    <SUITE FILE_PATH="coverage/spider$api.coverage" NAME="api Coverage Results" MODIFIED="1532999175994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxypool" />
     <SUITE FILE_PATH="coverage/spider$data.coverage" NAME="data Coverage Results" MODIFIED="1532581305341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider$Data.coverage" NAME="Data Coverage Results" MODIFIED="1532659882019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider$TaoBao.coverage" NAME="TaoBao Coverage Results" MODIFIED="1532786235789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -39,18 +47,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MongoDB.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoGouSpider/MongoDB.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-              <folding>
-                <element signature="e#23#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Spider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SoGouSpider/Spider.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,40 +60,8 @@
       <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SoGouSpider/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="baseLib.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baseLib.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Xml.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Xml.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3634">
-              <caret line="308" column="18" lean-forward="true" selection-start-line="308" selection-start-column="18" selection-end-line="308" selection-end-column="18" />
-              <folding>
-                <element signature="e#23#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaoYanSpider.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MaoYanSpider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="477">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -106,8 +70,52 @@
       <file leaf-file-name="SouGouSpider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SoGouSpider/SouGouSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="183" column="0" lean-forward="true" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="177" column="11" lean-forward="false" selection-start-line="177" selection-start-column="11" selection-end-line="177" selection-end-column="11" />
+              <folding>
+                <element signature="e#23#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SoGouSpiderFree/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SoGouSpiderFree/db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MongoDB.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SoGouSpiderFree/MongoDB.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#23#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SouGouSpider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SoGouSpiderFree/SouGouSpider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="162" column="18" lean-forward="true" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
               <folding>
                 <element signature="e#23#38#0" expanded="true" />
               </folding>
@@ -118,28 +126,28 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="558">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Agent.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Agent.py">
+      <file leaf-file-name="Spider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SoGouSpiderFree/Spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="request.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoGouSpider/request.py">
+        <entry file="file://$PROJECT_DIR$/SoGouSpiderFree/request.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+            <state relative-caret-position="23">
+              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -208,11 +216,15 @@
         <option value="$PROJECT_DIR$/proxypool/api.py" />
         <option value="$PROJECT_DIR$/SoGouSpider/request.py" />
         <option value="$PROJECT_DIR$/baseLib.py" />
-        <option value="$PROJECT_DIR$/SoGouSpider/config.py" />
         <option value="$PROJECT_DIR$/CheckCode.py" />
         <option value="$PROJECT_DIR$/SoGouSpider/MongoDB.py" />
         <option value="$PROJECT_DIR$/SoGouSpider/Spider.py" />
         <option value="$PROJECT_DIR$/SoGouSpider/SouGouSpider.py" />
+        <option value="$PROJECT_DIR$/SoGouSpider/config.py" />
+        <option value="$PROJECT_DIR$/SoGouSpiderFree/config.py" />
+        <option value="$PROJECT_DIR$/SoGouSpiderFree/request.py" />
+        <option value="$PROJECT_DIR$/SoGouSpiderFree/db.py" />
+        <option value="$PROJECT_DIR$/SoGouSpiderFree/SouGouSpider.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -277,12 +289,7 @@
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="proxypool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="SoGouSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="SoGouSpiderFree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -320,7 +327,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SouGouSpider (1)">
+  <component name="RunManager" selected="Python.SouGouSpider">
     <configuration name="CheckCode" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -353,6 +360,24 @@
       <module name="spider" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SoGouSpider/SouGouSpider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="SouGouSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SoGouSpiderFree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SoGouSpiderFree/SouGouSpider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -393,38 +418,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="importer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/proxypool" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="spider" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proxypool/importer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.SouGouSpider (1)" />
       <item index="1" class="java.lang.String" itemvalue="Python.api" />
-      <item index="2" class="java.lang.String" itemvalue="Python.importer" />
-      <item index="3" class="java.lang.String" itemvalue="Python.CheckCode" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Spider" />
+      <item index="2" class="java.lang.String" itemvalue="Python.CheckCode" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Spider" />
+      <item index="4" class="java.lang.String" itemvalue="Python.SouGouSpider" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.SouGouSpider (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Spider" />
-        <item index="2" class="java.lang.String" itemvalue="Python.CheckCode" />
-        <item index="3" class="java.lang.String" itemvalue="Python.api" />
-        <item index="4" class="java.lang.String" itemvalue="Python.importer" />
+        <item index="0" class="java.lang.String" itemvalue="Python.SouGouSpider" />
+        <item index="1" class="java.lang.String" itemvalue="Python.api" />
+        <item index="2" class="java.lang.String" itemvalue="Python.SouGouSpider (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Spider" />
+        <item index="4" class="java.lang.String" itemvalue="Python.CheckCode" />
       </list>
     </recent_temporary>
   </component>
@@ -438,13 +445,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532178828631</updated>
-    </task>
-    <task id="LOCAL-00005" summary="update">
-      <created>1532360059851</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1532360059852</updated>
     </task>
     <task id="LOCAL-00006" summary="update">
       <created>1532360082971</created>
@@ -782,7 +782,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532919908715</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="update">
+      <created>1532920021096</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1532920021096</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -795,7 +802,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32563025" sideWeight="0.49583334" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6155462" sideWeight="0.49583334" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.159375" sideWeight="0.5059701" order="2" side_tool="true" content_ui="tabs" />
@@ -849,39 +856,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/20180721/maoyan.xml" />
-    <entry file="file://$PROJECT_DIR$/20180721/image/霸王别姬.png" />
-    <entry file="file://$PROJECT_DIR$/file/txt/MaoYanSpider.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="124" lean-forward="false" selection-start-line="10" selection-start-column="124" selection-end-line="10" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/image/霸王别姬.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/txt/maoyan.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3979">
-          <caret line="173" column="10" lean-forward="false" selection-start-line="173" selection-start-column="10" selection-end-line="173" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/xml/test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/file/csv/data.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -958,16 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoGouSpider/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#52#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1119,14 +1088,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SoGouSpider/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Agent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -1139,14 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoGouSpider/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1169,6 +1122,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SoGouSpider/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SoGouSpider/MongoDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -1176,6 +1137,22 @@
           <folding>
             <element signature="e#23#54#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoGouSpider/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoGouSpider/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1189,8 +1166,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SoGouSpider/SouGouSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="183" column="0" lean-forward="true" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="177" column="11" lean-forward="false" selection-start-line="177" selection-start-column="11" selection-end-line="177" selection-end-column="11" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoGouSpiderFree/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoGouSpiderFree/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoGouSpiderFree/MongoDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoGouSpiderFree/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoGouSpiderFree/Spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoGouSpiderFree/SouGouSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="162" column="18" lean-forward="true" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
           <folding>
             <element signature="e#23#38#0" expanded="true" />
           </folding>
@@ -1199,8 +1228,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="558">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>

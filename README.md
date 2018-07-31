@@ -29,9 +29,9 @@
 
 `./proxypool/*`     设置代理池       [博客地址](http://www.sniper97.cn/index.php/category/note/worm/agent)
 
-`./SoGouSpider/*`   对搜狗微信的爬取    [博客地址](http://www.sniper97.cn/index.php/category/note/worm/weixin)
+`./SoGouSpider/*`   使用收费代理对搜狗微信的爬取    [博客地址](http://www.sniper97.cn/index.php/category/note/worm/weixin)
 
-`./SoGouSpiderFree/*` 使用免费代理对搜狗微信的爬取（还在试）[博客地址](http://www.sniper97.cn/index.php/category/note/worm/weixin)
+`./SoGouSpiderFree/*` 使用免费代理对搜狗微信的爬取   [博客地址](http://www.sniper97.cn/index.php/category/note/worm/weixin)
 #
 
 
