@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add3e427-242e-4545-b628-6ac815b09f71" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoGouSpiderFree/MongoDB.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoGouSpiderFree/SouGouSpider.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoGouSpiderFree/Spider.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoGouSpiderFree/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoGouSpiderFree/db.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoGouSpiderFree/request.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/spider.iml" afterPath="$PROJECT_DIR$/.idea/spider.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoGouSpider/config.py" afterPath="$PROJECT_DIR$/SoGouSpider/config.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -126,8 +118,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="627">
+              <caret line="33" column="104" lean-forward="false" selection-start-line="33" selection-start-column="104" selection-end-line="33" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -286,11 +278,6 @@
               <item name="spider" type="462c0819:PsiDirectoryNode" />
               <item name="file" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="SoGouSpiderFree" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -445,13 +432,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532178828631</updated>
-    </task>
-    <task id="LOCAL-00006" summary="update">
-      <created>1532360082971</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1532360082971</updated>
     </task>
     <task id="LOCAL-00007" summary="update">
       <created>1532437909266</created>
@@ -789,7 +769,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532920021096</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="update">
+      <created>1532999848294</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1532999848294</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1228,8 +1215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="627">
+          <caret line="33" column="104" lean-forward="false" selection-start-line="33" selection-start-column="104" selection-end-line="33" selection-end-column="104" />
           <folding />
         </state>
       </provider>
