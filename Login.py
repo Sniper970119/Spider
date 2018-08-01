@@ -2,6 +2,7 @@
 import requests
 from lxml import etree
 
+
 class Login():
     def __init__(self):
         self.headers = {
@@ -15,3 +16,33 @@ class Login():
         self.logined_url = 'https://github.com/settings/profile'
         self.session = requests.Session()
 
+    def token(self):
+        response = self.session.get(self.login_url, headers=self.headers)
+        selector = etree.HTML(response.text)
+        token = selector.xpath('//div//input[2]/@value')
+        return token
+
+    def login(self, email, password):
+        post_data = {
+            'commit': 'Sign in',
+            'utf8': '✓',
+            'authenticity_token': self.token()[0],
+            'login': email,
+            'password': password
+        }
+        self.session.post(self.post_url, data=post_data, headers=self.headers)
+
+        response = self.session.get(self.logined_url, headers=self.headers)
+        if response.status_code == 200:
+            self.profile(response.text)
+
+    def profile(self, html):
+        selector = etree.HTML(html)
+        name = selector.xpath('//*[@id="user_profile_name"]/@value')[0]
+        email = selector.xpath('//*[@id="user_profile_blog"]/@value')[0]
+        print(name, '\n', email)
+
+
+if __name__ == "__main__":
+    login = Login()
+    login.login(email='359366783@qq.com', password='000000')
