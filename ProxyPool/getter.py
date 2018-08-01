@@ -1,7 +1,7 @@
-from proxypool.tester import Tester
-from proxypool.db import RedisClient
-from proxypool.crawler import Crawler
-from proxypool.setting import *
+from ProxyPool.tester import Tester
+from ProxyPool.db import RedisClient
+from ProxyPool.crawler import Crawler
+from ProxyPool.setting import *
 import sys
 
 class Getter():

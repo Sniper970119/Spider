@@ -1,4 +1,4 @@
-from proxypool.db import RedisClient
+from ProxyPool.db import RedisClient
 
 conn = RedisClient()
 

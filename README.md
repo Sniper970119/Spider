@@ -27,11 +27,13 @@
 
 `./CheckCode.py`    验证码的识别与处理       [博客地址](http://www.sniper97.cn/index.php/category/note/worm/checkcode)
 
-`./proxypool/*`     设置代理池       [博客地址](http://www.sniper97.cn/index.php/category/note/worm/agent)
+`./ProxyPool/*`     设置代理池       [博客地址](http://www.sniper97.cn/index.php/category/note/worm/agent)
 
 `./SoGouSpider/*`   使用收费代理对搜狗微信的爬取    [博客地址](http://www.sniper97.cn/index.php/category/note/worm/sougou)
 
-`./SoGouSpiderFree/*` 使用免费代理对搜狗微信的爬取   [博客地址](http://www.sniper97.cn/index.php/category/note/worm/sougou)
+`./SoGouSpiderFree/*` 使用免费代理对搜狗微信的爬取   [博客地址](http://www.sniper97.cn/index.php/category/note/worm/sou1gou)
+
+`./Login.py`    模拟登录github     [博客地址](http://www.sniper97.cn/index.php/category/note/worm/login)
 #
 
 

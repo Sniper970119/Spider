@@ -1,10 +1,10 @@
 import time
 from multiprocessing import Process
-from proxypool.api import app
-from proxypool.getter import Getter
-from proxypool.tester import Tester
-from proxypool.db import RedisClient
-from proxypool.setting import *
+from ProxyPool.api import app
+from ProxyPool.getter import Getter
+from ProxyPool.tester import Tester
+from ProxyPool.db import RedisClient
+from ProxyPool.setting import *
 
 
 class Scheduler():
