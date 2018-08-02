@@ -34,6 +34,8 @@
 `./SoGouSpiderFree/*` 使用免费代理对搜狗微信的爬取   [博客地址](http://www.sniper97.cn/index.php/category/note/worm/sou1gou)
 
 `./Login.py`    模拟登录github     [博客地址](http://www.sniper97.cn/index.php/category/note/worm/login)
+
+`./PySpider`    使用PySpider框架对去哪儿进行爬取     [博客地址](http://www.sniper97.cn/index.php/category/note/worm/pyspider)
 #
 
 
