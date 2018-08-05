@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add3e427-242e-4545-b628-6ac815b09f71" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/spiders/httpbin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/spiders/zhihu.py" afterPath="$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/spiders/zhihu.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,8 +67,8 @@
       <file leaf-file-name="quotes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/spiders/quotes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -86,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="baidu.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="baidu.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/spiders/baidu.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
@@ -106,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="46" column="85" lean-forward="false" selection-start-line="46" selection-start-column="85" selection-end-line="46" selection-end-column="85" />
+            <state relative-caret-position="488">
+              <caret line="88" column="26" lean-forward="false" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -223,10 +221,10 @@
         <option value="$PROJECT_DIR$/PySpider/PySpiderForWeiXin.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/zhihu.py" />
-        <option value="$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/settings.py" />
         <option value="$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/spiders/zhihu.py" />
         <option value="$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/spiders/httpbin.py" />
         <option value="$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/spiders/baidu.py" />
+        <option value="$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/settings.py" />
       </list>
     </option>
   </component>
@@ -462,20 +460,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532178828631</updated>
-    </task>
-    <task id="LOCAL-00021" summary="update">
-      <created>1532524373298</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1532524373298</updated>
-    </task>
-    <task id="LOCAL-00022" summary="update">
-      <created>1532524443375</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1532524443375</updated>
     </task>
     <task id="LOCAL-00023" summary="update">
       <created>1532524562786</created>
@@ -806,7 +790,21 @@
       <option name="project" value="LOCAL" />
       <updated>1533474366294</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="update">
+      <created>1533476155926</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1533476155926</updated>
+    </task>
+    <task id="LOCAL-00071" summary="update">
+      <created>1533476165069</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1533476165071</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1189,14 +1187,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="46" column="85" lean-forward="false" selection-start-line="46" selection-start-column="85" selection-end-line="46" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -1213,14 +1203,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/spiders/quotes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/spiders/httpbin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -1233,6 +1215,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/spiders/quotes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="88" column="26" lean-forward="false" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="26" />
           <folding />
         </state>
       </provider>
