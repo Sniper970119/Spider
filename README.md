@@ -37,7 +37,7 @@
 
 `./PySpider/Pyspider.py`    使用PySpider框架对去哪儿进行爬取     [博客地址](http://www.sniper97.cn/index.php/category/note/worm/pyspider)
 
-`./ScrapyTest/`    使用Scrapy框架对toscrape进行爬取      [博客地址](http://www.sniper97.cn/index.php/category/note/worm/scrapy)
+`./ScrapyTest/`    使用Scrapy框架对toscrape进行爬取       [博客地址](http://www.sniper97.cn/index.php/category/note/worm/scrapy)
 
 `./PySpider/PyspiderWeiXin.py`    使用PySpider框架对微信进行爬取     [博客地址](http://www.sniper97.cn/index.php/category/note/worm/pyspider)
 
