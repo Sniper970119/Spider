@@ -113,4 +113,6 @@ class ProxyMiddleware(object):
     #     request.meta['proxy'] = 'http://127.0.0.1:1080'
 
     def process_exception(self,request, exception, spider):
+        self.log.debug('Get Exception')
+        request.meta['proxy'] = 'http://127.0.0.1:1080'
         return request
