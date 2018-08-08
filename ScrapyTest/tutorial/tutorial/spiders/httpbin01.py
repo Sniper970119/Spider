@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
+from conda.gateways import logging
 
 
 class Httpbin01Spider(scrapy.Spider):
@@ -9,3 +10,5 @@ class Httpbin01Spider(scrapy.Spider):
 
     def parse(self, response):
         print(response.text)
+
+

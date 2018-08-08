@@ -4,7 +4,7 @@
 #
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-
+from conda.gateways import logging
 from scrapy import signals
 
 
@@ -101,3 +101,16 @@ class TutorialDownloaderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+
+class ProxyMiddleware(object):
+
+    # 输出log日志
+    log = logging.getLogger(__name__)
+
+    # def process_request(self, request, spider):
+    #     self.log.debug('Using Proxy')
+    #     request.meta['proxy'] = 'http://127.0.0.1:1080'
+
+    def process_exception(self,request, exception, spider):
+        return request
