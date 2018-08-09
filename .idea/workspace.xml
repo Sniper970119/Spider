@@ -57,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/spiders/httpbin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
-              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -465,13 +465,6 @@
       <option name="presentableId" value="Default" />
       <updated>1532178828631</updated>
     </task>
-    <task id="LOCAL-00032" summary="update">
-      <created>1532584108834</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1532584108834</updated>
-    </task>
     <task id="LOCAL-00033" summary="update">
       <created>1532584224520</created>
       <option name="number" value="00033" />
@@ -808,7 +801,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533741850042</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="update">
+      <created>1533815881499</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1533815881499</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1224,7 +1224,7 @@
     <entry file="file://$PROJECT_DIR$/ScrapyTest/tutorial/tutorial/spiders/httpbin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding />
         </state>
       </provider>
